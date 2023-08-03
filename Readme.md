@@ -34,6 +34,7 @@ ls -a:
 init: inicio de repositorio en el direcctorio seleccionado. <br>
 status: ver estatus del repositorio. <br>
 add: agregar archivo a repositorio (stage). <br>
+commit -m "texto": comprometer atchivo con un texto que de claridad de los cambios realizados. <br>
 
 
 
