@@ -31,6 +31,7 @@ mkdir: crear un nuevo direcctorio. <br>
 ls -a: <br>
 rm: eliminacion de archivo. <br>
 mv: cambiar nombre de archivo. <br>
+cat: mostarar contenido del archivo. <br>
 
 ##Comandos git
 init: inicio de repositorio en el direcctorio seleccionado. <br>
@@ -43,6 +44,11 @@ diff: muestra las direferencias. <br>
 diff --staged: muestra las direferencias (stage). <br>
 log: historial de cambios. <br>
 log --oneline: historial de cambios en una linea. <br>
+branch: rama en la cual es esta trabajando. <br>
+checkout: rama a la cual moverse. <br>
+checkout -b: crear una buena rama. <br>
+merge: juntar ramas. <br>
+
 
 ### Ignorara archivos en git
 se debe de crear un archivo .gitignore donde se deben agregar los nombres del los archivos y direcctorios.
