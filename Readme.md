@@ -1,57 +1,56 @@
 # Git 
-## Descargar git
-link para realizar la descarga:
-[Git](https://git-scm.com/downloads)
 
-nota: si git es usado en windows usar la terminar que viene con git la cual es GitBASH
+## Descargar Git
+Para utilizar Git, primero debes descargarlo en tu sistema. Puedes descargar Git desde el siguiente enlace:
+[Descargar Git](https://git-scm.com/downloads)
 
-##Primeros pasos
-git config -h: entrega todas las configuraciones posibles.
+**Nota para usuarios de Windows:** Si estás utilizando Git en Windows, es recomendable usar la terminal que viene con Git, conocida como GitBASH.
 
-git --version : muestra la versión de git <br>
+## Primeros pasos
+Antes de comenzar, hay algunas configuraciones globales que debes establecer en Git. Puedes usar los siguientes comandos:
 
-git config --global user.name "nombre": configuración global de git con nombre. <br>
+- `git config -h`: Muestra todas las configuraciones posibles.
+- `git --version`: Muestra la versión de Git instalada en tu sistema.
+- `git config --global user.name "nombre"`: Configura globalmente el nombre del usuario.
+- `git config --global user.email email`: Configura globalmente el correo electrónico del usuario.
+- `git config --global core.editor "code --wait"`: Configura el editor de texto globalmente.
+- `git config --global core.autocrlf input`: Establece la configuración para sistemas Mac.
+- `git config --global core.autocrlf true`: Establece la configuración para sistemas Windows.
 
-git config --global user.email email: configuración global de git email.<br>
+## Comandos bash
+A continuación, algunos comandos útiles de la terminal para navegar en la estructura de archivos:
 
-git config --global core.editor "code --wait": configuración global de editor de texto.<br>
+- `ls`: Lista las carpetas y archivos en el directorio actual.
+- `pwd`: Muestra la ruta del directorio actual.
+- `cd`: Cambia al directorio especificado.
+- `cd ..`: Regresa un nivel en la estructura de directorios.
+- `mkdir`: Crea un nuevo directorio.
+- `ls -a`: Muestra todos los archivos, incluyendo los ocultos.
+- `rm`: Elimina un archivo.
+- `mv`: Cambia el nombre de un archivo.
+- `cat`: Muestra el contenido de un archivo.
 
-git config --global core.autocrlf input: si es en sistema mac. <br>
+## Comandos Git
+Estos son algunos comandos básicos de Git para gestionar tu repositorio:
 
-git config --global core.autocrlf true: si es en sistema windows. <br>
+- `git init`: Inicializa un nuevo repositorio en el directorio seleccionado.
+- `git status`: Muestra el estado actual del repositorio.
+- `git status -s`: Muestra el estado actual del repositorio de forma resumida.
+- `git add`: Agrega archivos al área de preparación (stage).
+- `git commit -m "texto"`: Realiza un commit con un mensaje claro que describa los cambios realizados.
+- `git restore`: Restaura un archivo eliminado.
+- `git diff`: Muestra las diferencias entre los cambios actuales y el último commit.
+- `git diff --staged`: Muestra las diferencias de los cambios en el área de preparación (stage).
+- `git log`: Muestra el historial de cambios realizados en el repositorio.
+- `git log --oneline`: Muestra el historial de cambios en una sola línea.
+- `git branch`: Muestra la rama actual en la que estás trabajando.
+- `git checkout`: Cambia a una rama específica.
+- `git checkout -b`: Crea y cambia a una nueva rama.
+- `git merge`: Combina una rama con la rama actual.
 
-##Comandos bash
-Navegar en la estructura de archivos. <br>
+## Ignorar archivos en Git
+Para evitar que ciertos archivos y directorios se añadan al repositorio, debes crear un archivo `.gitignore` y agregar los nombres de los archivos y directorios que deseas ignorar.
 
-ls: lista de las carpetas en cmd. <br>
-pwd: ruta en donde se encuentra. <br>
-cd: cambiar de direcctorio. <br>
-cd ..: Salir del direccitorio. <br>
-mkdir: crear un nuevo direcctorio. <br>
-ls -a: <br>
-rm: eliminacion de archivo. <br>
-mv: cambiar nombre de archivo. <br>
-cat: mostarar contenido del archivo. <br>
-
-##Comandos git
-init: inicio de repositorio en el direcctorio seleccionado. <br>
-status: ver estatus del repositorio. <br>
-status -s: ver estatus del repositorio. <br>
-add: agregar archivo a repositorio (stage). <br>
-commit -m "texto": comprometer atchivo con un texto que de claridad de los cambios realizados. <br>
-restore: recuperar archivo eliminado. <br>
-diff: muestra las direferencias. <br>
-diff --staged: muestra las direferencias (stage). <br>
-log: historial de cambios. <br>
-log --oneline: historial de cambios en una linea. <br>
-branch: rama en la cual es esta trabajando. <br>
-checkout: rama a la cual moverse. <br>
-checkout -b: crear una buena rama. <br>
-merge: juntar ramas. <br>
-
-
-### Ignorara archivos en git
-se debe de crear un archivo .gitignore donde se deben agregar los nombres del los archivos y direcctorios.
 
 
 
