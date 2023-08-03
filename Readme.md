@@ -39,6 +39,10 @@ status -s: ver estatus del repositorio. <br>
 add: agregar archivo a repositorio (stage). <br>
 commit -m "texto": comprometer atchivo con un texto que de claridad de los cambios realizados. <br>
 restore: recuperar archivo eliminado. <br>
+diff: muestra las direferencias. <br>
+diff --staged: muestra las direferencias (stage). <br>
+log: historial de cambios. <br>
+log --oneline: historial de cambios en una linea. <br>
 
 ### Ignorara archivos en git
 se debe de crear un archivo .gitignore donde se deben agregar los nombres del los archivos y direcctorios.
